@@ -5,8 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c5e8834-44fe-4ff6-9478-226af59d9880" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/collection/CollectionProgress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/collection/CollectionRequirement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/collection/CollectionSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/common/enums/PlantType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/common/enums/SpotCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/config/DeviceAuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/garden/GardenPlacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/garden/controller/GardenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/garden/dto/GardenPlantDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/garden/repository/GardenPlacementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/garden/service/GardenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/leaderboard/WeeklyAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/notification/NotificationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/plant/InventoryPlant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/plant/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/plant/UnlockGarden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/plant/dto/PlantDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/plant/repository/InventoryPlantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/plant/repository/PlantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/plant/repository/UnlockGardenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/spot/Spot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/spot/SpotDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/spot/SpotVisit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/spot/controller/SpotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/spot/dto/SpotDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/spot/repository/SpotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/spot/repository/SpotVisitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/spot/service/SpotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/util/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/garden_lamsay/walk/WalkSession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +67,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,6 +121,9 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="garden_lamsay.user" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.GardenLamsayApplication (1)">

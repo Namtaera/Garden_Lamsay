@@ -11,20 +11,21 @@ spring:
     name: GardenLamsay
 
   datasource:
-    url: jdbc:postgresql://lamsay-rds.cj24wem202yj.us-east-1.rds.amazonaws.com/postgres
+    url: jdbc:postgresql://lamsay-rds.cj24wem202yj.us-east-1.rds.amazonaws.com:5432/postgres
     username: postgres
     password: qwer1234!
     driver-class-name: org.postgresql.Driver
-    jpa:
-      hibernate:
-        ddl-auto: create   # 필요에 따라 none, create, update, validate
-      show-sql: true
 
+  jpa:
+    hibernate:
+      ddl-auto: create   # 서버 실행 시 테이블 생성
+    show-sql: true
     properties:
       hibernate:
         format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
 
-  h2:                           # ✅ 이것도 spring 바로 아래
+  h2:
     console:
       enabled: true
       path: /h2-console
@@ -44,7 +45,7 @@ logging:
   level:
     root: INFO
     org.hibernate.SQL_SLOW: WARN
-    org.hibernate.SQL: INFO
+    org.hibernate.SQL: DEBUG
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.stat: DEBUG
   pattern:
