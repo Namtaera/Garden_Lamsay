@@ -1,0 +1,51 @@
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+  application:
+    name: GardenLamsay
+
+  datasource:
+    url: jdbc:postgresql://lamsay-rds.cj24wem202yj.us-east-1.rds.amazonaws.com/postgres
+    username: postgres
+    password: qwer1234!
+    driver-class-name: org.postgresql.Driver
+    jpa:
+      hibernate:
+        ddl-auto: create   # 필요에 따라 none, create, update, validate
+      show-sql: true
+
+    properties:
+      hibernate:
+        format_sql: true
+
+  h2:                           # ✅ 이것도 spring 바로 아래
+    console:
+      enabled: true
+      path: /h2-console
+
+  output:
+    ansi:
+      enabled: always
+
+server:
+  address: 0.0.0.0
+  port: 8080
+  tomcat:
+    threads:
+      max: 200
+
+logging:
+  level:
+    root: INFO
+    org.hibernate.SQL_SLOW: WARN
+    org.hibernate.SQL: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.stat: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level [%X{TRACE_ID}] %logger{36} - %msg%n"

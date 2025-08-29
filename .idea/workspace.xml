@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aa45457-3f9d-41a3-9910-4f69450f490c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="0c5e8834-44fe-4ff6-9478-226af59d9880" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GardenLamsayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/garden_lamsay/a/GardenLamsayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GardenLamsay/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GardenLamsay/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GardenLamsay/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GardenLamsay/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GardenLamsay/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GardenLamsay/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GardenLamsay/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GardenLamsay/src/main/java/garden_lamsay/gardenlamsay/GardenLamsayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GardenLamsay/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GardenLamsay/src/test/java/garden_lamsay/gardenlamsay/GardenLamsayApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +80,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/nambola/Garden_Lamsay",
+    "last_opened_file_path": "/Users/nambola/Garden_Lamsay/Garden_Lamsay/GardenLamsay/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "spring.configuration.checksum": "f1dd27b1de4376f359a109250b4c361b",
     "vue.rearranger.settings.migration": "true"
   },
@@ -77,9 +100,17 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Garden_Lamsay/GardenLamsay/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.GardenLamsayApplication (1)">
     <configuration name="GardenLamsayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="GardenLamsay.main" />
+      <module name="Garden_Lamsay.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="garden_lamsay.GardenLamsayApplication" />
       <extension name="coverage">
         <pattern>
