@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c5e8834-44fe-4ff6-9478-226af59d9880" name="Changes" comment="hi" />
+    <list default="true" id="0c5e8834-44fe-4ff6-9478-226af59d9880" name="Changes" comment="hi">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/nambola/Garden_Lamsay/Garden_Lamsay/GardenLamsay/src/main/resources",
+    "last_opened_file_path": "/Users/nambola/GardenLamsay",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,6 +92,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.GardenLamsayApplication (1)">
+    <configuration name="GardenLamsayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Garden_Lamsay.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="garden_lamsay.GardenLamsayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GardenLamsayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="GardenLamsay.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gardenlamsay.GardenLamsayApplication" />
@@ -99,10 +108,10 @@
     </configuration>
     <configuration name="GardenLamsayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Garden_Lamsay.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="garden_lamsay.GardenLamsayApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="GardenLamsayApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="garden_lamsay.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,16 +132,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.GardenLamsayApplication (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0aa45457-3f9d-41a3-9910-4f69450f490c" name="Changes" comment="" />
+      <changelist id="0c5e8834-44fe-4ff6-9478-226af59d9880" name="Changes" comment="hi" />
       <created>1756262862833</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -144,6 +148,8 @@
       <workItem from="1756414025972" duration="8969000" />
       <workItem from="1756470386730" duration="2713000" />
       <workItem from="1756475335759" duration="154000" />
+      <workItem from="1756490494350" duration="27000" />
+      <workItem from="1756490780212" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
