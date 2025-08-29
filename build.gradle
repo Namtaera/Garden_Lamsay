@@ -8,6 +8,11 @@ group = 'garden_lamsay'
 version = '0.0.1-SNAPSHOT'
 description = 'GardenLamsay'
 
+java {
+	sourceCompatibility = '17'
+}
+
+
 // 빌드시 jar 파일 한개만 생성하기
 jar {
 	enabled = false
