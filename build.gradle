@@ -14,9 +14,9 @@ java {
 
 
 // 빌드시 jar 파일 한개만 생성하기
-jar {
-	enabled = false
-}
+//jar {
+//	enabled = false
+//}
 
 java {
 	toolchain {
